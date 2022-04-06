@@ -38,6 +38,19 @@
             <section class="gh-content gh-canvas">
                 {{content}}
             </section>
+
+            <section class="article-comments gh-canvas">
+                <div id="hyvor-talk-view"></div>
+                <script type="text/javascript">
+                    var HYVOR_TALK_WEBSITE = HYVOR_TALK_WEBSITE_CODE;
+                    var HYVOR_TALK_CONFIG = {
+                        url: false,
+                        id: "{{comment_id}}"
+                    };
+                </script>
+                <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed.js"></script>
+            </section>
+
         </article>
     {{/post}}
 
