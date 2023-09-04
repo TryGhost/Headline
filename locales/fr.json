@@ -1,0 +1,36 @@
+{   
+    "Account": "Compte",
+    "This post is for paying subscribers only" : "Cette publication est réservé aux abonnés payants"
+    "Newer Posts": "Publication la plus récente",
+    "Older Posts": "Anciennes Publications",
+    "Page {page} of {pages}": "Page {page} de {pages}",
+    "Subscribe": "S'abonner",
+    "Free" : "Gratuit"
+    "Show more" : "Voir plus"
+    "Upgrade your account": "Améliorer votre compte"
+    "Subscribe to {blogtitle}": "S'abonner à {blogtitle}",
+    "Subscribed!": "S'abonner!",
+    "with the email address": "avec l'adresse email",
+    "Your email address": "Votre adresse email",
+    "You've successfully subscribed to": "Vous êtes abonné avec succès à",
+    "A collection of posts": "A collection of posts",
+    "A collection of 1 post": "A collection of 1 post",
+    "A collection of % posts": "A collection of % posts",
+    "Get the latest posts delivered right to your inbox": "Recevez les derniers articles directement dans votre boîte mail",
+    "Latest Posts": "Dernières Publications",
+    "<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>More posts</a> by {name}",
+    "No posts": "Pas de publications",
+    " (Page %)": " (Page %)",
+    "Read More": "Lire plus",
+    "Read <a href='{url}'>more posts</a> by this author": "Lire <a href='{url}'>plus de publications</a> de cet auteur",
+    "See all % posts": "Voir tout % publications",
+    "Share this": "Partager",
+    "Stay up to date! Get all the latest & greatest posts delivered straight to your inbox": "Tenez-vous à jour! Recevez toutes les dernières publications directement dans votre boîte de réception",
+    "This post was a collaboration between": "Cette publication est une collaboration entre",
+    "youremail@example.com": "votreemail@example.com",
+    "1 post": "1 post",
+    "% posts": "% posts",
+    "1 min read": "Lecture 1 min ",
+    "% min read": "Lecture % min"
+  
+}
