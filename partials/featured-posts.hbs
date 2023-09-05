@@ -1,0 +1,8 @@
+{{#get "posts" limit="3" filter="featured:true" include="tags, authors"}}
+    {{#if posts}}
+        <p>Featured Posts</p>
+        {{#foreach posts}}
+            <p>{{slug}}</p>
+        {{/foreach}}
+    {{/if}}
+{{/get}}

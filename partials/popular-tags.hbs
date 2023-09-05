@@ -1,0 +1,8 @@
+{{#get "tags" limit="3" filter="visibility:public" include="count.posts" order="count.posts desc"}}
+    {{#if tags}}
+        <p>Top 3 used tags</p>
+        {{#foreach tags}}
+            <p>{{slug}}</p>
+        {{/foreach}}
+    {{/if}}
+{{/get}}

@@ -1,0 +1,8 @@
+{{#get "posts" limit="all" filter="tag:getting-started" include="tags, authors"}}
+    {{#if posts}}
+        <p>Getting Started Posts total: {{posts.length}}</p>
+        {{#foreach posts}}
+            <p>{{slug}}</p>
+        {{/foreach}}
+    {{/if}}
+{{/get}}

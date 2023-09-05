@@ -1,0 +1,8 @@
+{{#get "posts" limit="10" filter="featured:false" include="tags, authors" order="slug DESC"}}
+    {{#if posts}}
+        <p>Regular Posts Ordered by Slug</p>
+        {{#foreach posts}}
+            <p>{{slug}}</p>
+        {{/foreach}}
+    {{/if}}
+{{/get}}
