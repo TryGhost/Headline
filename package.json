@@ -1,6 +1,6 @@
 {
-    "name": "headline",
-    "description": "A Ghost theme",
+    "name": "belline",
+    "description": "A fork from headline Ghost theme",
     "version": "1.0.0",
     "private": true,
     "engines": {
