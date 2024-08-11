@@ -4,6 +4,7 @@
     "Older Posts": "Artículos Anteriores",
     "Page {page} of {pages}": "Página {page} de {pages}",
     "Subscribe": "Suscríbete",
+    "Subscribe now": "Suscríbete ahora",
     "Subscribe to": "Suscríbete a",
     "Subscribed!": "¡Suscrito!",
     "with the email address": "con el correo electrónico",
@@ -13,10 +14,12 @@
     "A collection of 1 post": "Una colección de 1 artículo",
     "A collection of % posts": "Una colección de % artículos",
     "Get the latest posts delivered right to your inbox": "Recibe los últimos artículos directamente en tu buzón",
+    "Latest": "Últimas noticias",
     "Latest Posts": "Últimos Artículos",
     "<a href='{url}'>More posts</a> by {name}": "<a href='{url}'>Más artículos</a> de {name}",
     "No posts": "No hay artículos",
     " (Page %)": " (Página %)",
+    "Show more": "Mostrar más",
     "Read More": "Lee Más",
     "Read <a href='{url}'>more posts</a> by this author": "Lee <a href='{url}'>más artículos</a> de este autor",
     "See all % posts": "Ver todos los % artículos",
@@ -32,8 +35,10 @@
     "By": "De",
     "Topics": "Assuntos",
     "For better browsing, please enable JavaScript": "Para mejorar la navegación de este sitio, por favor activar javaScript.",
+    "Powered by": "Hecho con",
     "Powered by Ghost": "Hecho con Ghost",
     "Sign in": "Iniciar sesión",
-    "Account": "Sesión",
-    "in": "en"    
+    "Account": "Perfil",
+    "in": "en",
+    "Comments": "Comentarios"
 }
