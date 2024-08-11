@@ -130,7 +130,9 @@ dist
 .pnp.*
 
 # assets/built
-assets/built
+assets/built/*
+assets/built/main.min.js
+assets/built/screen.css.map
 
 # VStudio workspace
 *.code-workspace
