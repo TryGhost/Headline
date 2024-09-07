@@ -7,7 +7,7 @@ Belline forks from Headline, a [Ghost](https://github.com/TryGhost/Ghost) theme 
 
 ## Change list
 - replace hardcoded strings (as many as I could find) by [helpers](https://ghost.org/docs/themes/helpers/translate/)
-- implement [github actions](#Github-actions-(WIP))
+- implement [github actions](#github-actions-wip)
 
 # Headline instructions
 
