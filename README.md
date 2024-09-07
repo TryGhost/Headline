@@ -6,7 +6,7 @@ Belline forks from Headline, a [Ghost](https://github.com/TryGhost/Ghost) theme 
 **Headline demo: https://headline.ghost.io**
 
 ## Change list
-- replace hardcoded strings (as many as I could find) by [helpers](https://ghost.org/docs/themes/helpers/translate/)
+- replace hardcoded strings (as many as I could find) by [translate](https://ghost.org/docs/themes/helpers/translate/) helpers
 - implement [github actions](#github-actions-wip)
 
 # Headline instructions
@@ -51,11 +51,11 @@ yarn zip
 4. In the `Name` input box, type `GHOST_ADMIN_API_URL`
 5. Type the value for your secret
 6. Click Add secret
-7. Reapeat for `GHOST_ADMIN_API_KEY` secret
+7. Repeat for `GHOST_ADMIN_API_KEY` secret
 
-# Contribution
+# Headline contribution
 
-This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
+Headline repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
 
 ## Copyright & License
 
