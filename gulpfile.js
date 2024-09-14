@@ -75,6 +75,25 @@ function js(done) {
     ], handleError(done));
 }
 
+function portal(done) {
+    pump([
+        src('node_modules/@tryghost/portal/umd/*.js'),
+        dest('assets/jsdevlir/', {sourcemaps: '.'}),
+        livereload()
+    ], handleError(done));
+}
+
+function sodosearch(done) {
+    pump([
+        src([
+            'node_modules/@tryghost/sodo-search/umd/*.js',
+            'node_modules/@tryghost/sodo-search/umd/*.css'
+        ]),
+        dest('assets/jsdevlir/', {sourcemaps: '.'}),
+        livereload()
+    ], handleError(done));
+}
+
 function zipper(done) {
     const filename = require('./package.json').name + '.zip';
 
@@ -94,7 +113,7 @@ const hbsWatcher = () => watch(['*.hbs', 'partials/**/*.hbs'], hbs);
 const cssWatcher = () => watch('assets/css/**/*.css', css);
 const jsWatcher = () => watch('assets/js/**/*.js', js);
 const watcher = parallel(hbsWatcher, cssWatcher, jsWatcher);
-const build = series(css, js);
+const build = series(css, sodosearch, portal, js);
 
 exports.build = build;
 exports.zip = series(build, zipper);
