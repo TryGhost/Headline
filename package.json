@@ -120,6 +120,7 @@
     },
     "dependencies": {
         "@tryghost/portal": "^2.43.0",
-        "@tryghost/sodo-search": "^1.1.1"
+        "@tryghost/sodo-search": "^1.1.1",
+        "vanilla-cookieconsent": "^3.0.1"
     }
 }

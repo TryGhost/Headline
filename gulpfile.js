@@ -94,6 +94,15 @@ function sodosearch(done) {
     ], handleError(done));
 }
 
+function cookieconsent(done) {
+    pump([
+        src(['node_modules/vanilla-cookieconsent/dist/*.js',
+        'node_modules/vanilla-cookieconsent/dist/*.css']),
+        dest('assets/built/', {sourcemaps: '.'}),
+        livereload()
+    ], handleError(done));
+}
+
 function zipper(done) {
     const filename = require('./package.json').name + '.zip';
 
@@ -113,7 +122,7 @@ const hbsWatcher = () => watch(['*.hbs', 'partials/**/*.hbs'], hbs);
 const cssWatcher = () => watch('assets/css/**/*.css', css);
 const jsWatcher = () => watch('assets/js/**/*.js', js);
 const watcher = parallel(hbsWatcher, cssWatcher, jsWatcher);
-const build = series(css, sodosearch, portal, js);
+const build = series(css, cookieconsent, sodosearch, portal, js);
 
 exports.build = build;
 exports.zip = series(build, zipper);
