@@ -106,7 +106,7 @@
         "autoprefixer": "10.4.20",
         "beeper": "2.1.0",
         "cssnano": "7.0.6",
-        "gscan": "4.43.4",
+        "gscan": "4.43.5",
         "gulp": "5.0.0",
         "gulp-concat": "2.6.1",
         "gulp-livereload": "4.0.2",
@@ -114,9 +114,9 @@
         "gulp-uglify": "3.0.2",
         "gulp-zip": "5.1.0",
         "ordered-read-streams": "2.0.0",
-        "postcss": "8.4.45",
+        "postcss": "8.4.47",
         "postcss-easy-import": "4.0.0",
-        "pump": "3.0.0"
+        "pump": "3.0.2"
     },
     "dependencies": {
         "@tryghost/portal": "^2.43.0",
