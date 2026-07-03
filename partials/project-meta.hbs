@@ -1,0 +1,14 @@
+{{#is "post"}}
+    <aside class="gh-article-sidebar gh-project-sidebar">
+
+        <nav class="gh-project-links" data-project-links aria-label="{{t "Project links"}}">
+            <a class="gh-project-link" data-project-link="repository" hidden>{{> "icons/github"}}<span>{{t "Source code"}}</span></a>
+            <a class="gh-project-link" data-project-link="issues" hidden>{{> "icons/issues"}}<span>{{t "Issue tracker"}}</span></a>
+            <a class="gh-project-link" data-project-link="documentation" hidden>{{> "icons/docs"}}<span>{{t "Documentation"}}</span></a>
+            <a class="gh-project-link" data-project-link="download" hidden>{{> "icons/download"}}<span>{{t "Download"}}</span></a>
+        </nav>
+
+        <a href="#/share" class="gh-button-share">{{t "Share"}}</a>
+
+    </aside>
+{{/is}}

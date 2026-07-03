@@ -1,0 +1,19 @@
+{{!< default}}
+
+<main class="gh-main gh-outer">
+    <div class="gh-inner">
+
+        <section class="gh-pagehead">
+            <h1 class="gh-pagehead-title">{{t "Projects"}}</h1>
+        </section>
+
+        <div class="gh-topic gh-topic-grid">
+            <div class="gh-topic-content gh-feed">
+                {{#foreach posts}}
+                    {{> "loop-grid" has_large_post=false}}
+                {{/foreach}}
+            </div>
+        </div>
+
+    </div>
+</main>
